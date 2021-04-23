@@ -43,7 +43,8 @@ public class MainActivity extends AppCompatActivity {
         AddToDo();
 
     }
-
+    
+    // Add task in lists
     private void AddToDo() {
         Cursor dataToDo = database.GetData("SELECT * FROM ToDo");
         arrayList.clear();
